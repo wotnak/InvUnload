@@ -84,7 +84,7 @@
 		<!-- CoreProtect -->
 		<repository>
 			<id>coreprotect-repo</id>
-			<url>http://maven.playpro.com/</url>
+			<url>https://maven.playpro.com/</url>
 		</repository>
 		<!-- WorldEdit -->
 		<repository>
@@ -93,12 +93,12 @@
 		</repository>
 		<!-- PlotSquared -->
 		<repository>
-			<id>IntellectualSites</id>
-			<url>https://mvn.intellectualsites.com/content/groups/public/</url>
+			<id>papermc</id>
+			<url>https://repo.papermc.io/repository/maven-public/</url>
 		</repository>
 		<repository>
 			<id>jeff-media-repo</id>
-			<url>https://repo.jeff-media.de/maven2</url>
+			<url>https://repo.jeff-media.com/public</url>
 		</repository>
 		<repository>
 			<id>pcgf-repo</id>
@@ -110,7 +110,7 @@
 		</repository>
 		<repository>
 			<id>placeholderapi</id>
-			<url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+			<url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
 		</repository>
 		<repository>
 			<id>jitpack-repo</id>
@@ -191,13 +191,13 @@
 		<dependency>
 			<groupId>de.jeff_media</groupId>
 			<artifactId>ChestSortAPI</artifactId>
-			<version>11.0.0-SNAPSHOT</version>
+			<version>13.0.0-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.plotsquared</groupId>
 			<artifactId>PlotSquared-Bukkit</artifactId>
-			<version>5.11.1</version>
+			<version>6.11.1</version>
 			<scope>provided</scope>
 			<exclusions>
 				<exclusion>
@@ -215,7 +215,7 @@
 	<distributionManagement>
 		<repository>
 			<id>jeff-media-public</id>
-			<url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
+			<url>https://repo.jeff-media.com/public/</url>
 		</repository>
 	</distributionManagement>
 
