@@ -36,14 +36,6 @@ public class PlotSquaredHook {
 		} catch(ClassNotFoundException ignored) {
 
 		}
-		try {
-			Class.forName("com.plotsquared.bukkit.util.BukkitUtil");
-			hook = new PlotSquared5Hook();
-			main.getLogger().info("Successfully hooked into PlotSquared v5");
-			return;
-		} catch(ClassNotFoundException ignored) {
-
-		}
 
 		Plugin plotSquared = Bukkit.getPluginManager().getPlugin("PlotSquared");
 		if(plotSquared != null) {
